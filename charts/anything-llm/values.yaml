@@ -52,6 +52,8 @@ persistence:
   accessMode: ReadWriteOnce
   # -- Size of the persistent volume.
   size: 10Gi
+  # -- Storage class for the persistent volume.
+  storageClass: default
   # -- List of volumes to create.
   volumes:
     - name: server-storage
